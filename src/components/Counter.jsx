@@ -10,17 +10,16 @@ export default function Counter() {
 
     const reset = () => setCount(0)
 
-    return (
-        <>
-            <h3>Contador: <small>{count}</small></h3>
+    return <div className='counter-box'>
+        <h3>{count}</h3>
 
-            <div>
-                <button onClick={() => increment(1)}>Incrementar</button>
-                &nbsp;
-                <button onClick={() => decrement(1)}>Decrementar</button>
-                &nbsp;
-                <button onClick={() => reset()}>Reiniciar</button>
-            </div>
-        </>
-    )
+        <div>
+            <button onClick={() => increment(1)}>Incrementar</button>
+            &nbsp;
+            <button onClick={() => decrement(1)}>Decrementar</button>
+            &nbsp;
+            <button onClick={() => reset()}>Reiniciar</button>
+        </div>
+    </div >
+
 }
