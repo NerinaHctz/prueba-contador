@@ -13,10 +13,11 @@ El valor no puede subir de 10 ni bajar de 0.
 - React
 - CSS
 
-## Cómo ejecutar la aplicación
+## Cómo ejecutar la aplicación desde la consola
+- Navegar a la carpeta deseada
+
 - Clonar el repositorio
 git clone https://github.com/NerinaHctz/prueba-contador.git
-cd contador
 
 - Instalar dependencias
 npm install
